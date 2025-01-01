@@ -1,0 +1,122 @@
+s = SadanandaList()
+t = (1,2,3)
+
+s = s + s + s + s
+print(s)
+print('sadananda')
+
+s += s
+print(s)
+
+d = {'c':56 , 'k':0, 'n':51}
+s+=d
+
+print(s)
+s+=t
+
+s+={1,2,3,4,6,7,8,98,23,32,85,2}
+print(s)
+
+s = SadanandaList([1,2,3,4])
+print(s)
+
+s.clear()
+print(s)
+
+l = [1,2,3,4,5]
+m = [32, 'ckn', 32.85, [1,2,3,4,5]]
+
+
+d1 = {1:'c',2:'k',3:'n',4:'h'}
+d2 = {1:'c',2:'k',3:'n',4:'h'}
+
+s.append(d1)
+s+={1,2,3,4,6,7,8,98,23,32,85,2}
+s+=[98,23,32,85,2]
+
+s.append([111,222,333,444,555,666,777,888,999])
+
+print(s)
+
+s.append(l)
+s.append(m)
+
+print('')
+print(s)
+    
+if l in s:
+    print('yes',l)   
+    
+if d1 in s:
+    print('yes',l)   
+    
+if m in s:
+    print('yes',l)   
+    
+if s==d1:
+    print('----------------')
+s2 = [{1: 'c', 2: 'k', 3: 'n', 4: 'h'}, 32, 1, 2, 3, 4, 98, 6, 7, 8, 85, 23, 98, 23, 32, 85, 2, [111, 222, 333, 444, 555, 666, 777, 888, 999], [1, 2, 3, 4, 5], [32, 'ckn', 32.85, [1, 2, 3, 4, 5]]]
+
+if s2==s:
+    print('----------------')
+    
+
+print(s)
+
+print(len(s))
+
+print('-------------- trying to multiply -------------------')
+print(len(s))
+print(s)
+s= s*3
+print(s)
+print(len(s))
+
+
+print('----------------- testing the slices -----------------')
+
+print(s)
+
+print('')
+print('')
+print(s[::])
+print('')
+print(s[1::4])
+print('')
+print(s[::])
+print('')
+print(s[:])
+print('')
+print(s[0:0])
+print('')
+print(s[1::2])
+print('')
+print(s[-1::20])
+print('')
+print(s[1::20])
+print('')
+print(s[0::])
+print('')
+print(s[1:0:1])
+print('')
+print(s[100:0:1])
+print('')
+
+#s.sort()
+
+k = SadanandaList([11111,-12,31,14,555,6])
+k.sort()
+print(k)
+
+a = [11111,-12,31,14,555,6]
+
+print(sorted(a))
+
+print(s.count(888))
+print(s.count({1: 'c', 2: 'k', 3: 'n', 4: 'h'}))
+
+print(s.where(2))
+
+
+for i in s:
+    print(i)
